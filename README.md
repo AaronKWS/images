@@ -30,23 +30,23 @@
 因为我使用的是macOS，所以为了省事直接使用brew安装，安装后就会出现到应用程序中打开即可
 
 ## 新建仓库
-![](https://segmentfault.com/img/remote/1460000041076408)
+![](https://segmentfault.com/img/remote/1460000041076408)                                       
 仓库必须要设置为公有仓库，不然图片无法展示，这其实算是唯一的缺点，就是公有的话别人访问你的github仓库，就能看到你上传的全部图片，但是我需要上传的图片基本都是网上或者截图，所以不是很重要。
 仓库建好之后，点击页面右上角，进入 Settings：
-![](https://segmentfault.com/img/remote/1460000041076409)
+![](https://segmentfault.com/img/remote/1460000041076409)                       
 然后进入 Developer settings：
-![](https://segmentfault.com/img/remote/1460000041076410)
+![](https://segmentfault.com/img/remote/1460000041076410)                          
 点击 Personal access tokens，再点 Generate new token 新建 token。
-![](https://segmentfault.com/img/remote/1460000041076411)
+![](https://segmentfault.com/img/remote/1460000041076411)                                 
 填写 Notes 信息，选择 token 过期时间，为了安全，GitHub 会强烈建议不要设置成永久。这个大家根据自己实际情况选择，到期之后重新生成即可。
 
 复选框的话，repo 一定要全选，其他的无所谓，我是都勾选了。
 
-确定之后，就生成我们需要的 token 了。
-https://segmentfault.com/img/remote/1460000041076412
+确定之后，就生成我们需要的 token 了。                         
+![](https://segmentfault.com/img/remote/1460000041076412)
 
 ## 配置 PicGo
-![](https://segmentfault.com/img/remote/1460000041076413)
+![](https://segmentfault.com/img/remote/1460000041076413)                        
 - 设定仓库名：上文在 GitHub 创建的仓库。
 - 设定分支名：main。
 - 设定 Token：上文生成的 token。
@@ -54,8 +54,8 @@ https://segmentfault.com/img/remote/1460000041076412
 - 设定自定义域名：可以为空，这里为了使用 CDN 加快图片的访问速度，按这样格式填写：https://cdn.jsdelivr.net/gh/用户名/仓库名
 
 ## 配置完成
-到这里就可以使用了
+到这里就可以使用了                        
 
-流程参自：
+流程参自：                       
 https://segmentfault.com/a/1190000041076406
 https://github.com/Molunerfinn/PicGo/blob/dev/README.md
