@@ -27,22 +27,22 @@
 | [Homebrew](https://brew.sh/) | `brew install picgo --cask` | macOS | 感谢 @womeimingzi11 的贡献 |
 | [AUR](https://aur.archlinux.org/packages/yay) | `yay -S picgo-appimage` | Arch-Linux | 感谢 @houbaron 的贡献 |
 
-因为我使用的是macOS，所以为了省事直接使用brew安装，安装后就会出现到应用程序中打开即可
+因为我使用的是macOS，所以为了省事直接使用brew安装，安装后就会出现到应用程序中打开即可                
 
 ## 新建仓库
 ![](https://segmentfault.com/img/remote/1460000041076408)                                       
-仓库必须要设置为公有仓库，不然图片无法展示，这其实算是唯一的缺点，就是公有的话别人访问你的github仓库，就能看到你上传的全部图片，但是我需要上传的图片基本都是网上或者截图，所以不是很重要。
-仓库建好之后，点击页面右上角，进入 Settings：
+仓库必须要设置为公有仓库，不然图片无法展示，这其实算是唯一的缺点，就是公有的话别人访问你的github仓库，就能看到你上传的全部图片，但是我需要上传的图片基本都是网上或者截图，所以不是很重要。                                
+仓库建好之后，点击页面右上角，进入 Settings：                             
 ![](https://segmentfault.com/img/remote/1460000041076409)                       
-然后进入 Developer settings：
+然后进入 Developer settings：                              
 ![](https://segmentfault.com/img/remote/1460000041076410)                          
-点击 Personal access tokens，再点 Generate new token 新建 token。
+点击 Personal access tokens，再点 Generate new token 新建 token。                                
 ![](https://segmentfault.com/img/remote/1460000041076411)                                 
-填写 Notes 信息，选择 token 过期时间，为了安全，GitHub 会强烈建议不要设置成永久。这个大家根据自己实际情况选择，到期之后重新生成即可。
+填写 Notes 信息，选择 token 过期时间，为了安全，GitHub 会强烈建议不要设置成永久。这个大家根据自己实际情况选择，到期之后重新生成即可。                       
 
-复选框的话，repo 一定要全选，其他的无所谓，我是都勾选了。
+复选框的话，repo 一定要全选，其他的无所谓，我是都勾选了。                          
 
-确定之后，就生成我们需要的 token 了。                         
+确定之后，就生成我们需要的 token 了。                                
 ![](https://segmentfault.com/img/remote/1460000041076412)
 
 ## 配置 PicGo
